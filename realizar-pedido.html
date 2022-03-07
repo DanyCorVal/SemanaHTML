@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria Ensueño</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="logo-nav">
+            <img src="/img/logo.jpg" alt="">
+        </div>
+        <div class="opciones-logo">
+            <nav>
+                <a href="/index.html">INICIO</a>
+                <a href="/realizar-pedido.html">REALIZAR PEDIDO</a>
+                <a href="/dashboard.html">DASHBOARD</a>
+            </nav>
+        </div>
+    </div>
+
+    <div class="form">
+        <h1>Pedido</h1>
+        <form action="">
+            <label for="nombre"> Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre">
+            <br><br>
+
+            <label for="tel1">Teléfono:</label><br>
+            <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+
+            <label for="email">Correo:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="descripcion">Descripcion:</label><br>
+            <textarea id="descripcion" name="descripcion" rows="4" cols="50">
+            </textarea><br>
+            <label for="sabores">Sabores:</label><br>
+            <select id="sabores" name="tacos">
+                <option value="vainilla"> $20 MX - Vainilla</option>
+                <option value="chocolate">$22 MX -Chocolate</option>
+                <option value="limon">$15 MX - Limon</option>
+                <option value="zanahoria">$17 MX - Zanahoria</option>
+                <option value="naranja">$10 MX - Naranja</option>
+                <option value="fresa">$24 MX - Fresa</option>
+                <option value="zanahoria">$27 MX - Platano</option>
+            </select><br><br>
+            <label for="sabores">Adornos:</label><br>
+            <select id="sabores" name="tacos">
+                <option value="vainilla"> $200 MX - Base giratoria</option>
+                <option value="chocolate">$100 MX -Base carton</option>
+                <option value="limon">$15 MX - Velas</option>
+                <option value="zanahoria">$17 MX - Velas Letras</option>
+                <option value="naranja">$25 MX - Letras Cumpleaños</option>
+            </select><br><br>
+            <input class="button" type="submit"><br>
+           
+        </form>
+    </div>
+    <footer>
+        <div class="informacion">
+            <h3>
+                Contacto
+            </h3>
+            <span>Calle Los Olivos #4723, Col. Campestre, Nuevo Laredo, Mex </span>
+            <span>(867) 748 47 41</span>
+            <span> Lunes a Jueves: 8:00 am a 16:00px</span>
+            <span> Viernes: 10:00 am a 16:00px</span>
+        </div>
+    </footer>
+</body>
+</html>
